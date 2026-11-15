@@ -2,8 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-APP_VERSION = "Version 1.0"
-
+APP_VERSION = "Version 2.0"
 @app.route("/")
 def home():
     return f"""
